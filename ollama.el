@@ -78,7 +78,7 @@
 
 ;;;###autoload
 (defun ollama-prompt-line ()
-  "Prompt with current word."
+  "Prompt with current line."
   (interactive)
   (with-output-to-temp-buffer "*ollama*"
     (princ
